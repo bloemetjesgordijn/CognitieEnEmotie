@@ -178,7 +178,7 @@ def functionRungeKutta():
         tTRN[i+1] = ((tMax) / (1 + math.exp(-1 * ((vTRN[i] - vThr) / sigma))))
 
 def controlGas(lst):
-    print(sum(lst), 'values true')
+    print(sum(lst), 'out of 900 values True')
     input("Press Enter to continue...")
     while True:
         print("start")
